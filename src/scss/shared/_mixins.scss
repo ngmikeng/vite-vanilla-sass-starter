@@ -1,0 +1,14 @@
+@use 'variables' as var;
+
+@mixin card($padding: 1rem) {
+  background-color: var.$white;
+  padding: $padding;
+  border-radius: 8px;
+  box-shadow: var.$shadow;
+}
+
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

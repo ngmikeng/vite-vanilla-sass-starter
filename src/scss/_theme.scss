@@ -1,0 +1,16 @@
+@use 'shared';
+
+body {
+  background-color: shared.$bg-light;
+  color: shared.$text-primary;
+  font-family: shared.$font-stack;
+}
+
+.dark-mode {
+  background-color: shared.$bg-dark;
+  color: shared.$white;
+
+  .card {
+    background-color: #1f1f1f;
+  }
+}
