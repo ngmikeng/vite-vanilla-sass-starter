@@ -34,16 +34,8 @@ A lightweight starter project powered by [Vite](https://vitejs.dev/) using plain
 ```
 ├── public
 ├── src
-│ |── main.js
-│ |── scss
-│   ├── shared
-│   │ ├── _index.scss
-│   │ ├── _mixins.scss
-│   │ └── _variables.scss
-│   ├── _components.scss
-│   ├── _layout.scss
-│   ├── _theme.scss
-│   └── main.scss
+│  |── main.js
+│  |── sass
 ├── index.html
 └── package.json
 ```

@@ -1,4 +1,4 @@
-@use 'shared';
+@use '../abstracts' as shared;
 
 body {
   background-color: shared.$bg-light;

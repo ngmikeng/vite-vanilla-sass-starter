@@ -1,0 +1,8 @@
+@use '../abstracts' as shared;
+
+.sidebar {
+  width: 250px;
+  background-color: shared.$white;
+  padding: shared.$spacing-unit;
+  box-shadow: shared.$shadow;
+}

@@ -1,21 +1,5 @@
-@use 'shared';
+@use '../abstracts' as shared;
 @use 'sass:color';
-
-.card {
-  @include shared.card();
-  margin-bottom: 1rem;
-
-  h3 {
-    font-size: 0.9rem;
-    color: shared.$text-secondary;
-  }
-
-  p {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-top: 0.5rem;
-  }
-}
 
 .button {
   padding: 0.5rem 1.5rem;

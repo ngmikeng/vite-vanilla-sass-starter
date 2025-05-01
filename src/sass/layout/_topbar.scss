@@ -1,0 +1,12 @@
+@use '../abstracts' as shared;
+
+.topbar {
+  @include shared.flex-between;
+  margin-bottom: 2rem;
+
+  input {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+}

@@ -1,0 +1,17 @@
+@use '../abstracts' as shared;
+
+.card {
+  @include shared.card();
+  margin-bottom: 1rem;
+
+  h3 {
+    font-size: 0.9rem;
+    color: shared.$text-secondary;
+  }
+
+  p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+}
